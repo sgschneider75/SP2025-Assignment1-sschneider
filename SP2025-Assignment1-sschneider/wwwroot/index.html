@@ -15,7 +15,7 @@
             font-size: 40px
         }
 
-        .image {
+        #CoverArt {
             border-radius: 50%;
             display: block;
             margin: 0 auto;
@@ -31,22 +31,24 @@
             margin: 0 auto;
         }
 
-        .basic{
+        #link {
             font-size: 20px;
-            text-align: center
+            text-align: center;
+            display: block;
+            margin: 0 auto;
         }
 
-        .list {
+        
+        
+
+        #Actors {
             display: flex;
             flex-direction: column;
             align-items: center;
             list-style: disc;
             padding-left: 0;
-        }
-
-        .link{
-            display: block;
-            margin: 0 auto;
+            font-size: 20px;
+            text-align: center
         }
 
 
@@ -55,12 +57,12 @@
 <body style="background-color: forestgreen">
     <div style="color: white">
         <h1 id="Title">Psych</h1>
-        <img class="image"height="250"  width="250"  src="https://i.ebayimg.com/images/g/5GoAAOSwdLhlBniS/s-l1200.jpg" />
+        <img id="CoverArt"height="250"  width="250"  src="https://i.ebayimg.com/images/g/5GoAAOSwdLhlBniS/s-l1200.jpg" />
         <h5 id="Rating">8.4/10</h5>
         <iframe id="Trailer" width="702" height="527" src="https://www.youtube.com/embed/JOIDHgbTQ_w" title="PSYCH   Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <a class="basic link" href="https://www.imdb.com/title/tt0491738/">IMDB</a>
+        <a id="link" href="https://www.imdb.com/title/tt0491738/">IMDB</a>
         <p id="Summary">When a novice sleuth convinces the police he has psychic powers, he and his reluctant best friend are hired on as consultants to help solve complicated cases.</p>
-        <ul class="basic list">
+        <ul id="Actors">
             <li>James Roday Rodriguez</li>
             <li>Dule Hill</li>
             <li>Maggie Lawson</li>
