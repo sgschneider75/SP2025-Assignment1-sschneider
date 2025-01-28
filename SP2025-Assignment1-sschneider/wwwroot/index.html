@@ -3,8 +3,71 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <style>
+
+        #Title {
+            font-size: 200px;
+            text-align: center
+        }
+
+        #Rating{
+            text-align: center;
+            font-size: 40px
+        }
+
+        .image {
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        #Summary{
+            font-size:40px;
+            text-align: center
+        }
+
+        #Trailer {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .basic{
+            font-size: 20px;
+            text-align: center
+        }
+
+        .list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            list-style: disc;
+            padding-left: 0;
+        }
+
+        .link{
+            display: block;
+            margin: 0 auto;
+        }
+
+
+    </style>
 </head>
-<body>
-    Hello world
+<body style="background-color: forestgreen">
+    <div style="color: white">
+        <h1 id="Title">Psych</h1>
+        <img class="image"height="250"  width="250"  src="https://i.ebayimg.com/images/g/5GoAAOSwdLhlBniS/s-l1200.jpg" />
+        <h5 id="Rating">8.4/10</h5>
+        <iframe id="Trailer" width="702" height="527" src="https://www.youtube.com/embed/JOIDHgbTQ_w" title="PSYCH   Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <a class="basic link" href="https://www.imdb.com/title/tt0491738/">IMDB</a>
+        <p id="Summary">When a novice sleuth convinces the police he has psychic powers, he and his reluctant best friend are hired on as consultants to help solve complicated cases.</p>
+        <ul class="basic list">
+            <li>James Roday Rodriguez</li>
+            <li>Dule Hill</li>
+            <li>Maggie Lawson</li>
+            <li>Timothy Omundson</li>
+            <li>Kirsten Nelson</li>
+        </ul>
+
+    </div>
 </body>
 </html>
